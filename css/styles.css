@@ -1,0 +1,229 @@
+body {
+	margin: 0;
+	background-color: #000;
+	background: #000 url("../images/bottom_repeat.png") 50% 100% repeat-x;
+	color: #fff;
+}
+img {
+	border: none;
+}
+
+/* clearfix (to wrap around floating elements) */
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+#page {
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #000 url("../images/bottom_repeat_bright.png") 50% 100% repeat-x;
+	color: #fff;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 25px;
+}
+h1 #logo {
+	display: block;
+	margin: 0 auto;
+}
+#top-illus {
+	display: block;
+	margin: 0 auto;	
+}
+#available {
+	text-align: center;
+	margin-top: -20px;
+}
+#available p {
+	display: inline-block;
+	font-family: 'mecha_condensedregular', Helvetica, sans-serif;
+	font-size: 40px;
+	color: #FFF;
+}
+#available .social {
+	display: inline-block;
+}
+#available .social a {
+	display: inline-block;
+	margin-left: 10px;
+	width: 38px;
+	height: 40px;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+}
+#available .social a:hover {
+	background-position: 0 0;
+}
+.facebook-logo {
+	background-image: url("../images/fb.png");
+}
+.twitter-logo {
+	background-image: url("../images/tw.png");
+}
+
+#video-wrapper {
+	width: 640px;
+	margin: 0 auto;
+}
+#video {
+	position: relative;
+	padding-bottom: 65%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+#video iframe,
+#video object,
+#video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#description {
+	width: 840px;
+	margin: 0 auto;
+}
+#description p {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: 14px;
+	line-height: 24px;
+	color: #CCC;
+	margin-top: 96px;
+}
+#description .ruletop {
+	width: 100%;
+	float: left;
+	margin-top: 80px;
+}
+#description .illus {
+	width: 226px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: -80px;
+}
+#description .rulebottom {
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+}
+
+h2 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 22px;
+	color: #FFF;
+}
+
+#stay-tuned {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+#stay-tuned a{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+
+#powered-by {
+	display: block;
+	margin: 80px auto 100px auto;
+	margin-top: -1px;
+}
+
+#bottom-illus {
+	display: block;
+	margin: 0 auto;
+}
+
+#copyright {
+	margin: 0;
+	text-align: center;
+	color: #000;
+	padding-bottom: 10px;
+	font-family: 'mecha_condensedregular', Arial, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+
+/* mobile */
+@media screen and (max-width: 1000px) {
+	#page {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	h1 #logo {
+		width: 180px;
+	}
+	#top-illus {
+		width: 100%;
+	}
+	#available .social {
+		display: block;
+	}
+	
+	#video-wrapper {
+		width: 100%;
+	}
+	#video {
+		max-width: 100%;
+	}
+	#description {
+		width: 100%;
+	}
+	#description .illus {
+		width: 113px;
+	}
+	
+	#description .rulebottom {
+		width: 460px;
+	}
+	#powered-by {
+		margin-bottom: 10px;
+	}
+	#bottom-illus {
+		width: 100%;
+	}
+}
+
+/* #Font-Face
+================================================== */
+@font-face {
+    font-family: 'mecha_condensedregular';
+    src: url('../fonts/mecha_condensed-webfont.eot');
+    src: url('../fonts/mecha_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mecha_condensed-webfont.woff') format('woff'),
+         url('../fonts/mecha_condensed-webfont.ttf') format('truetype'),
+         url('../fonts/mecha_condensed-webfont.svg#mecha_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mecha_condensedbold';
+    src: url('../fonts/mecha_condensed_bold-webfont.eot');
+    src: url('../fonts/mecha_condensed_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mecha_condensed_bold-webfont.woff') format('woff'),
+         url('../fonts/mecha_condensed_bold-webfont.ttf') format('truetype'),
+         url('../fonts/mecha_condensed_bold-webfont.svg#mecha_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
