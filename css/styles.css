@@ -39,7 +39,7 @@ h1 #logo {
 }
 #available {
 	text-align: center;
-	margin-top: -20px;
+	margin-top: -80px;
 }
 #available p {
 	display: inline-block;
@@ -143,7 +143,6 @@ h2 {
 #powered-by {
 	display: block;
 	margin: 80px auto 100px auto;
-	margin-top: -1px;
 }
 
 #bottom-illus {
