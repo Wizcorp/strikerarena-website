@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	background-color: #000;
+	background: #000 url("../images/top_error.jpg") repeat-x;
+	color: #fff;
+	background-size: 50% auto;
+}
+  
+img {
+	border: none;
+}
+
+/* clearfix (to wrap around floating elements) */
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+/* #Font-Face */
+@font-face {
+    font-family: 'mecha_condensedregular';
+    src: url('../fonts/mecha_condensed-webfont.eot');
+    src: url('../fonts/mecha_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mecha_condensed-webfont.woff') format('woff'),
+         url('../fonts/mecha_condensed-webfont.ttf') format('truetype'),
+         url('../fonts/mecha_condensed-webfont.svg#mecha_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mecha_condensedbold';
+    src: url('../fonts/mecha_condensed_bold-webfont.eot');
+    src: url('../fonts/mecha_condensed_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mecha_condensed_bold-webfont.woff') format('woff'),
+         url('../fonts/mecha_condensed_bold-webfont.ttf') format('truetype'),
+         url('../fonts/mecha_condensed_bold-webfont.svg#mecha_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#page {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+h1 {
+	margin: 200px;
+	padding-top: 25px;
+}
+h1 #logo {
+	display: none;
+}
+#description {
+	width: 840px;
+	height: 300px;
+	margin: 0 auto;
+}
+.illus {
+	display: block;
+	margin: 0 auto;
+}
+h2 {
+	font-family: 'mecha_condensedregular', Arial, sans-serif;
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+}
+#copyright {
+	margin: 0;
+	text-align: center;
+	color: #000;
+	padding-top: 10px; padding-bottom: 10px;
+	font-family: 'mecha_condensedregular', Arial, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+#copyright a{
+	color: #000;	
+}
+
+
+/* mobile */
+@media screen and (max-width: 1000px) {
+	#page {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	h1 {
+		margin: 60px;
+	}
+	h2 {
+		font-family: 'mecha_condensedregular', Arial, sans-serif;
+		font-size: 18px;
+		color: #000;
+		text-align: center;
+	}
+	#description {
+		width: 100%;
+	}
+}
+
+
