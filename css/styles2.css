@@ -48,6 +48,26 @@ img {
 
 }
 
+a:link {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color:#000
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color:#fff
+}
+
+a:active {
+    text-decoration: none;
+}
 
 #page {
 	max-width: 1000px;
