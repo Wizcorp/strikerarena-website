@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		}, false);
 	});
 	// highlight current language
-	document.querySelector('#langSwitch div[data-lang=' + language + ']').classList.add('on');
+	document.querySelector('#langSwitch div[data-lang=' + language + ']').className += ' on';
 });
 
 
@@ -77,8 +77,8 @@ var content = {
 		en: 'Stay tuned for more updates. <a href="mailto:striker.arena@wizcorp.jp">Contact the Strikers</a> for more info.',
 		fr: 'Bientôt plus de contenu. <a href="mailto:striker.arena@wizcorp.jp">Contactez-nous</a> pour plus d’informations.',
 		de: 'Bleiben Sie dran für weitere Updates. <a href="mailto:striker.arena@wizcorp.jp">Kontaktieren Sie die Striker</a> für mehr Infos.',
-		ja: '詳細は後日発表！乞うご期待！ご質問はこちらまでお寄せください。',
-		zh: '敬請期待更多的消息。請發送電子郵件以獲取更多信息。',
+		ja: '詳細は後日発表！乞うご期待！ご質問は<a href="mailto:striker.arena@wizcorp.jp">こちらまでお寄せ</a>ください。',
+		zh: '敬請期待更多的消息。<a href="mailto:striker.arena@wizcorp.jp">請發送電子郵件</a>以獲取更多信息。',
 		es: 'Permanece atento para actualizaciones. <a href="mailto:striker.arena@wizcorp.jp">Contacta con los Strikers</a> para más información.'
 	}
 }
