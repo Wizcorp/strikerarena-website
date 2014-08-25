@@ -16,11 +16,20 @@
 <body>
 	<div id="page">
 
+		<div id="langSwitch">
+			<div data-lang="en">English</div>
+			<div data-lang="fr">Français</div>
+			<div data-lang="de">Deutsch</div>
+			<div data-lang="ja">日本語</div>
+			<div data-lang="zh">中文</div>
+			<div data-lang="es">Español</div>
+		</div>
+
 		<h1><img id="logo" src="images/logo.png" alt="Striker Arena"></h1>
 		<img id="top-illus" src="images/top.jpg" alt="">
 
 		<div id="available">
-			<p>Available on iPad... LATE 2014</p>
+			<p data-txt="available">Available on iPad... LATE 2014</p>
 			<div class="social">
 				<a class="facebook-logo" href="https://www.facebook.com/StrikerArena" target="_blank"></a>
 				<a class="twitter-logo" href="https://twitter.com/strikerarena" target="_blank"></a>
@@ -36,14 +45,14 @@
 		<div id="description" class="cf">
 			<img class="ruletop" src="images/rule1.png">
             <img class="illus" src="images/guy.png" alt="Striker Arena Player">          
-			<p>On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory.
+			<p data-txt="description">On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory.
 			<br><br>These few are known as the Strikers. Their spilt blood and sweat in the arena feeds the Emperor’s ever growing lust for true transcendence.</p>
             <img class="rulebottom" src="images/rule2.png">
 		</div>
 
-		<h2>Choose a side, crush your enemies in the Arena, and become the new Emperor!</h2>
+		<h2 data-txt="chooseSide">Choose a side, crush your enemies in the Arena, and become the new Emperor!</h2>
 
-		<p id="stay-tuned">Stay tuned for more updates. <a href="mailto:striker.arena@wizcorp.jp">Contact the Strikers</a> for more info.</p>
+		<p id="stay-tuned" data-txt="stayTuned">Stay tuned for more updates. <a href="mailto:striker.arena@wizcorp.jp">Contact the Strikers</a> for more info.</p>
 
 		<img id="powered-by" src="images/poweredby.png" alt="Powered by Wizcorp, Mage, Unity">
 
@@ -51,14 +60,15 @@
 
 		<p id="copyright">&copy; 2014 <a href="http://www.wizcorp.jp/" target="_blank">Wizcorp.</a> All Rights Reserved.</p>
 	</div>
-		<script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-          ga('create', 'UA-40464010-5', 'auto');
-          ga('send', 'pageview');
-        </script>
+	<script src="js/script.js"></script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-40464010-5', 'auto');
+	ga('send', 'pageview');
+	</script>
 </body>
 </html>
