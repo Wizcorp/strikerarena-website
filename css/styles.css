@@ -51,6 +51,23 @@ img {
 	color: #fff;
 }
 
+#langSwitch {
+	text-align: center;
+	font: 16px Arial, sans-serif;
+}
+#langSwitch div {
+	display: inline-block;
+	padding: 10px;
+	color: #888;
+}
+#langSwitch div:hover {
+	color: #ccc;
+	cursor: pointer;
+}
+#langSwitch .on {
+	color: #fff;
+}
+
 h1 {
 	margin: 0;
 	padding-top: 25px;
@@ -196,6 +213,12 @@ h2 {
 	#page {
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	#langSwitch {
+		font-size: 13px;
+	}
+	#langSwitch div {
+		padding: 2px;
 	}
 	h1 #logo {
 		width: 180px;
