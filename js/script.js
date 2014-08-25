@@ -53,8 +53,8 @@ var content = {
 		en: 'Available on iPad... LATE 2014',
 		fr: 'Disponible sur iPad... FIN 2014',
 		de: 'Für iPad Ende 2014 erhältlich.',
-		ja: '',
-		zh: '',
+		ja: '2014年末に配信予定iPadゲーム',
+		zh: '即將推出... 2014年底!',
 		es: 'Disponible en iPad... a finales de 2014'
 	},
 	'description': {
@@ -77,8 +77,8 @@ var content = {
 		en: 'Stay tuned for more updates. <a href="mailto:striker.arena@wizcorp.jp">Contact the Strikers</a> for more info.',
 		fr: 'Bientôt plus de contenu. <a href="mailto:striker.arena@wizcorp.jp">Contactez-nous</a> pour plus d’informations.',
 		de: 'Bleiben Sie dran für weitere Updates. <a href="mailto:striker.arena@wizcorp.jp">Kontaktieren Sie die Striker</a> für mehr Infos.',
-		ja: '',
-		zh: '',
+		ja: '詳細は後日発表！乞うご期待！ご質問はこちらまでお寄せください。',
+		zh: '敬請期待更多的消息。請發送電子郵件以獲取更多信息。',
 		es: 'Permanece atento para actualizaciones. <a href="mailto:striker.arena@wizcorp.jp">Contacta con los Strikers</a> para más información.'
 	}
 }
