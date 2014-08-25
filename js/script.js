@@ -17,8 +17,6 @@ if (params.lang) {
 	// ...or the language set in th URL
 	language = params.lang;
 }
-console.log(language);
-
 
 
 document.addEventListener('DOMContentLoaded', function () {
