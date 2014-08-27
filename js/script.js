@@ -54,7 +54,7 @@ var content = {
 		fr: 'Disponible sur iPad... FIN 2014',
 		de: 'Für iPad Ende 2014 erhältlich.',
 		ja: '2014年末に配信予定iPadゲーム',
-		zh: '即將推出... 2014年底!',
+		zh: '2014年底即将推出！',
 		es: 'Disponible en iPad... a finales de 2014',
 		nl: 'Beschikbaar voor iPad... eind 2014'
 	},
@@ -63,7 +63,7 @@ var content = {
 		fr: 'Sur une lointaine planète, d’anciennes tribus ont mis fin aux guerres et règlent désormais leur compte via une discipline sanglante connue sous le nom de Football des Dieux. Tous les dix ans, elles se réunissent au tournoi Striker Arena et se battent sous le regard de l’Empereur. Les plus féroces guerriers de chaque tribu prennent part à cet affrontement en quête de gloire.<br><br>Ces quelques élus sont connus sous le nom de Strikers. Leur sang versé dans l’arène nourrit les ambitions secrètes de l’Empereur qui aspire à l’ultime transcendance.',
 		de: 'Auf einem fernen Planeten, schlichten alte Stämme Ihre Streitigkeiten durch eine brutale Disziplin die als Fußball der Götter bekannt ist. Alle zehn Jahre versammeln sich diese mutigen und wilden Krieger in der Striker Arena unter den Augen ihres Emperors. Jeder Stamm wirbt die tapfersten und gefürchtetsten ihrer Angehörigen, um Ruhm und Ehre zu kämpfen. Die paar Auserwählten sind als die Striker bekannt.<br><br>Ihr vergossenes Schweiß und Blut in der Arena des Emperors ernährt seine ständig wachsende Lust für ultimative Transzendenz.',
 		ja: '遥 か遠く離れた惑星にて、古代部族たちが「神々のサッカー」と呼ばれる壮絶な戦いを繰り広げていた。10年に1度、彼らはその地ストライカーアリー ナに集い、皇帝の下に戦うのであった。それぞれの部族からは卓越した能力をもつ勇敢な戦士らが誇り高き戦いのために招集された。<br><br>ストライカーと呼ばれる彼らの流した血と汗は、皇帝の真の超越欲をよりいっそうかきたてた。',
-		zh: '在一个遥远的星球里，有一群古老的部落时常在战争。最终他们以个古代风纪的方式来解决了这个战争，名为“上帝的足球”。每逢十年，在霸王的批准之下。部落们派出了个派的凶猛勇将，为自派争光。这批勇将们被称为“前锋”。<br><br>他们的血汗在舞台上助长了霸王日益增长的霸权欲望。',
+		zh: '在一个遥远的星球里，有一群古老的部落时常在战争。最终他们以个古代风纪的方式来解决了这个战争，名为“上帝的足球”。每逢十年，在霸王的批准之下。部落们派出了个派的凶猛勇将，为自派争光。这批勇将们被称为“前锋”。<br><br>他们的血汗就在舞台上助长了霸王日益增长的霸权欲望。',
 		es: 'En un planeta lejano, antiguas tribus han pospuesto sus guerras mediante una anciana y brutal disciplina, el Fútbol de los Dioses. Una vez cada diez años, las tribus acuden al torneo llamado Striker Arena, para luchar bajo la mirada de su Emperador. Los más bravos y feroces guerreros de su raza son escogidos por cada tribu para luchar por la gloria. Estos pocos elegidos son conocidos como Strikers.<br><br>La sangre y el sudor en la arena se sublima en alimento para el alma del Emperador, por siempre ávido de verdadera trascendencia.',
 		nl: 'Op een planeet hier ver vandaan, voeren eeuwenoude volksstammen oorlog middels een oude en brute discipline, het Voetbal van de Goden. Iedere tien jaar komen de stammen samen in het Striker Arena tournooi om elkaar te lijf te gaan onder het toeziend oog van de keizer. Iedere stam schrijft hun dapperste en sterkste geweldenaren in voor het gevecht om glorie. Deze strijders zijn beter bekend als de Strikers.<br><br>Het bloed, zweet en de tranen die door de arena vloeien voeden de keizer’s eeuwige honger naar transcendentie.'
 	},
@@ -81,7 +81,7 @@ var content = {
 		fr: 'Bientôt plus de contenu. <a href="mailto:striker.arena@wizcorp.jp">Contactez-nous</a> pour plus d’informations.',
 		de: 'Bleiben Sie dran für weitere Updates. <a href="mailto:striker.arena@wizcorp.jp">Kontaktieren Sie die Striker</a> für mehr Infos.',
 		ja: '詳細は後日発表！乞うご期待！ご質問は<a href="mailto:striker.arena@wizcorp.jp">こちらまでお寄せ</a>ください。',
-		zh: '敬請期待更多的消息。<a href="mailto:striker.arena@wizcorp.jp">請發送電子郵件</a>以獲取更多信息。',
+		zh: '敬请期待更多的消息。<a href="mailto:striker.arena@wizcorp.jp">请发送电子邮件</a>以获取更多信息。',
 		es: 'Permanece atento para actualizaciones. <a href="mailto:striker.arena@wizcorp.jp">Contacta con los Strikers</a> para más información.',
 		nl: 'Houd deze website in de gaten voor nieuws. Neem <a href="mailto:striker.arena@wizcorp.jp">contact op met de Strikers</a> voor meer informatie.'
 	}
