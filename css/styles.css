@@ -138,6 +138,9 @@ h1 #logo {
 #available .social a:hover {
 	background-position: 0 0;
 }
+#available .kickstarterBanner {
+	display: block;
+}
 .facebook-logo {
 	background-image: url("../images/fb.png");
 }
