@@ -84,7 +84,6 @@ img {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	margin: 0 auto;
-	height: 716px;
 }
 h1 {
 	margin: 0;
@@ -159,14 +158,15 @@ h1 #logo {
 	height: 170px;
 }
 
-
+#bottom {
+	padding-bottom: 20px;
+}
 #bottommargin {
 	background-color: #ffffee;
 	height: 1500px;
 }
 #below {
 	margin: 0 auto;
-	height: 1500px;
 	width: 740px;
 }
 .blood1 {
@@ -222,9 +222,6 @@ h2, h3 {
 	color: #000;
 }
 #tribes {
-	display: block;
-	width: 740px;
-	float: left;
 	margin-top: 50px;
 	padding-bottom: 40px;
 	border-bottom-width: thin;
@@ -235,7 +232,7 @@ h2, h3 {
 	border-top-color: #000;
 }
 #box {
-	width: 370px;
+	width: 50%;
 	height: 280px;
 	float: left;
 }
@@ -261,9 +258,6 @@ h4 {
 	color: #000;
 }
 #howto {
-	display: block;
-	width: 740px;
-	float: left;
 	padding-bottom: 40px;
 	border-bottom-width: thin;
 	border-bottom-style: solid;
@@ -272,12 +266,12 @@ h4 {
 .sofa {
 	width: 508px;
 	float: left;
-	margin-top: -20px;
 	padding-right: 20px;
-	margin-right: 10px;
-	border-right-width: thin;
-	border-right-style: solid;
-	border-right-color: #333;
+	border-right: 1px solid #333;
+}
+.howtoText {
+	float: right;
+	width: 200px;
 }
 h5 {
 	font-family: 'mecha_condensedregular', Helvetica, sans-serif;
@@ -292,11 +286,6 @@ h5 {
 	line-height: 18px;
 	color: #000;
 	margin-top: 5px;
-}
-#kickstarter {
-	display: block;
-	width: 740px;
-	float: left;
 }
 #kickstarter p {
 	font-family: Helvetica, Arial, sans-serif;
@@ -317,18 +306,15 @@ h5 {
 }
 footer {
 	background-color: #000;
-	height: 270px;
-	max-width: 760px;
+}
+footer .container {
+	width: 760px;
 	margin: 0 auto;
 }
-#footermargin {
-	background-color: #000;
-	height: 270px;
-}
+
 #thanks {
 	width: 360px;
 	height: 160px;
-	display: box;
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: left;
 	font-size: 12px;
@@ -347,7 +333,6 @@ h6 {
 #social {
 	width: 100px;
 	height: 160px;
-	display: box;
 	padding-top: 30px;
 	padding-left: 60px;
 	float: left;
@@ -363,7 +348,6 @@ h6 {
 #contact {
 	width: 100px;
 	height: 160px;
-	display: box;
 	padding-top: 30px;
 	padding-left: 60px;
 	float: left;
@@ -411,7 +395,8 @@ h6 {
 		width: 100%;
 	}
 	#available {
-		width: 320px;
+		background-color: #fff;
+		padding-bottom: 10px;
 	}
 	#available .social {
 		display: block;
@@ -429,9 +414,18 @@ h6 {
 	#middle {
 		display: none;
 	}
+	.blood1,
+	.blood2,
+	.blood3 {
+		display: none;
+	}
+	#below {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: auto;
+	}
 	#story {
-		width: 320px;
-		clear: both;
+		width: auto;
 		float: none;
 	}
 	.illus {
@@ -449,56 +443,28 @@ h6 {
 		margin: 0 auto;
 		text-align: center;
 	}
-	#tribes {
-		width: 320px;
-		margin-bottom: -30px;
-		text-align: center;
-	}
-	#box {
-		width: 320px;
-		margin-bottom: -30px;
-		text-align: center;
-	}
 	#bottom {
-		width: 100%;
-		height: 2000px;
 		background-color: #ffffee;
-		margin-top: -220px;
-		text-align: center;
-	}
-	#howto {
-		width: 320px;
-		clear: both;
-		float: none;
-		text-align: center;
-	}
-	#howto p{
 		text-align: center;
 	}
 	.sofa {
-		width: 90%;
-		float: left;
-		border-right-style: none;	
-		margin-left: 20px;
-		padding-bottom: 10px;
-	}
-	#kickstarter {
-		width: 320px;
-		clear: both;
-		float: none;
-		text-align: center;
-	} 
-	#kickstarter p {
-		width: 320px;
-		clear: both;
-		float: none;
-		text-align: center;
-	} 
-	footer {
+		max-width: 320px;
 		width: 100%;
-		clear: both;
 		float: none;
-		height: 600px;
+		border: none;
+		padding: 0;
+	}
+	.howtoText {
+		margin-top: 10px;
+		float: none;
+		width: auto;
+	}
+	#howto p {
+		text-align: center;
+	}
+	#kickstarter p {
+		width: auto;
+		text-align: center;
 	}
 	h6 {
 		font-family: 'mecha_condensedregular', Helvetica, sans-serif;
@@ -506,30 +472,44 @@ h6 {
 		color: #FFF;
 		margin: 0 auto;
 	}
-	#thanks {
-		width: 320px;
+	footer .container {
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
 		text-align: center;
-		clear: both;
+	}
+	#thanks {
+		text-align: center;
+		float: none;
+		width: auto;
+		height: auto;
 		margin-bottom: 20px;
 	}
 	#social {
-		width: 320px;
-		text-align: center;
-		padding: 0;
-		height: 120px;
+		float: none;
+		width: auto;
+		height: auto;
+		padding: 10px 0;
 	}
 	#contact {
-		width: 320px;
-		text-align: center;
-		padding: 0;
-		height: 80px;
+		float: none;
+		width: auto;
+		height: auto;
+		padding: 10px 0;
 	}
 	#copyright {
-		width: 320px;
-		text-align: center;
+		float: none;
+		width: auto;
+		height: auto;
 		padding: 0;
 	}
 
 }
 
 
+@media screen and (max-width: 480px) {
+	#box {
+		float: none;
+		width: auto;
+	}
+}
