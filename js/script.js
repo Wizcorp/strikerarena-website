@@ -227,7 +227,7 @@ var content = {
 		zh: '',
 		es: '',
 		nl: '',
-		ru: 'большое спасибо'
+		ru: 'Благодарность'
 	},
 	'footer2': {
 		en: 'Find Us On',
