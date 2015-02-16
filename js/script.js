@@ -50,14 +50,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 var content = {
 	'available': {
-		en: 'Coming to iPad LATE 2014',
-		fr: 'Arrive sur iPad… FIN 2014',
+		en: 'Available from February 24th 2015',
+		fr: 'Disponible le 24 février 2015',
 		de: 'Für iPad Ende 2014 erhältlich.',
-		ja: '2014年末に配信予定iPadゲーム',
+		ja: '2015年2月24日配信予定',
 		zh: '2014年底即将推出！',
 		es: 'Disponible en iPad... a finales de 2014',
 		nl: 'Beschikbaar voor iPad... eind 2014',
-		ru: 'Доступно для iPad... в конце 2014 года'
+		ru: 'В продаже с 24 февраля 2015 г.'
 	},
 	'story': {
 		en: 'On a distant planet, ancient tribes have settled their wars through an old brutal discipline, Soccer of the Gods. Once every ten years, tribes gather in the Striker Arena tournament to battle each other under the authority of their Emperor. Each tribe enlists the bravest and fiercest of their kin to fight for glory.<br><br>These few are known as the Strikers. Their spilt blood and sweat in the arena feeds the Emperor’s ever growing lust for true transcendence.',
